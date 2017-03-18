@@ -5,7 +5,7 @@ import traceback
 import random
 app = Flask(__name__)
 
-token = "<ACCESS_TOKEN_HERE>"
+token = "EAAD0FIbuQqcBAApqsesPj32dGKapNgI4cZCoHSZBZAb1k5ZCyl4AG4ix523O2GNo7lSSKJakon5yipEuyTRovoDfFBO2HQGZAAUQWtbjZC9WXoZBCMzhbxfsvtnSTbjnFC8iC0VOPKeQqkJ94BGZCUKW2aZA2MiZA24ENC4OgZAFTwdbQZDZD"
 
 @app.route('/webhook', methods=['GET', 'POST'])
 def webhook():
