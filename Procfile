@@ -1,1 +1,1 @@
-web: gunicorn HelloWorldBot:app
+web: python HelloWorldBot.py
