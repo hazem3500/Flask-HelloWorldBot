@@ -26,7 +26,6 @@ def webhook():
     if request.args.get('hub.verify_token') == 'banana':
       return request.args.get('hub.challenge')
     return "Wrong Verify Token"
-  return "Hello World" #Not Really Necessary
 
 if __name__ == '__main__':
   app.run(debug=True)
