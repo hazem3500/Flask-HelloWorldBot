@@ -6,8 +6,8 @@ import random
 import wit
 app = Flask(__name__)
 
-client = Wit(access_token=WIT_TOKEN)
-token = "EAAD0FIbuQqcBAApqsesPj32dGKapNgI4cZCoHSZBZAb1k5ZCyl4AG4ix523O2GNo7lSSKJakon5yipEuyTRovoDfFBO2HQGZAAUQWtbjZC9WXoZBCMzhbxfsvtnSTbjnFC8iC0VOPKeQqkJ94BGZCUKW2aZA2MiZA24ENC4OgZAFTwdbQZDZD"
+client = Wit(access_token="2K7GXJSRTF7B5ZB74PNZBZQPGFYIIRKC")
+token = "EAAD0FIbuQqcBAG5wPPmLMAhLdgEoAHfAru3qcCPo7VBc6iZCaPVUZCYFMpUPJ1ssPD1XxvNFfC52sJ7lZAmtU2bGRqQnOfaED4NZB3rj3ko83R4DDGBXjt2ttDcgYfDDjbQNEBS0eZBmsi7DICGfClCQBqu1ztZBE0qCDPooLUogZDZD"
 
 @app.route('/webhook', methods=['GET', 'POST'])
 def webhook():
