@@ -52,7 +52,7 @@ def handle_incoming_messages():
 					sender = msg['sender']['id']
 					message = msg['message']['text']
 					
-					reply(sender, "ma3lesh)
+					reply(sender, "ma3lesh")
 					return "ok"
 				else:
 					return "ok"
