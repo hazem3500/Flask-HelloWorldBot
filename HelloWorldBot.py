@@ -1,9 +1,10 @@
 from flask import Flask, request
+from wit import Wit
 import requests
 import json
 import traceback
 import random
-import wit
+
 app = Flask(__name__)
 
 client = Wit(access_token="2K7GXJSRTF7B5ZB74PNZBZQPGFYIIRKC")
