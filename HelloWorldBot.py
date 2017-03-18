@@ -3,6 +3,7 @@ import requests
 import json
 import traceback
 import random
+import wit
 app = Flask(__name__)
 
 token = "EAAD0FIbuQqcBAApqsesPj32dGKapNgI4cZCoHSZBZAb1k5ZCyl4AG4ix523O2GNo7lSSKJakon5yipEuyTRovoDfFBO2HQGZAAUQWtbjZC9WXoZBCMzhbxfsvtnSTbjnFC8iC0VOPKeQqkJ94BGZCUKW2aZA2MiZA24ENC4OgZAFTwdbQZDZD"
